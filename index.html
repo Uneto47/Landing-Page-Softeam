@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+
+<body>
+
+<input id="botao-menu" type="checkbox" class="botao-menu" aria-label="botao menu">
+<label class="botao-menu-label" for="botao-menu" title="botao menu"></label>
+<aside class="menu background-branco">
+    <div class="conteudo-menu">
+        <h1 onclick="getElementById('botao-menu').checked = false;" class="logo-softeam">
+            <a id="logo" href='#home'> <img src="assests/img/softeam.jpg" alt="softeam logo"> SOFTEAM</a>
+        </h1>
+        <nav>
+            <ul onclick="getElementById('botao-menu').checked = false;">
+            <li> <a href='#Especializacoes'>Especializações</a></li>
+            <li> <a href='#localizacao'>Localização</a></li>
+            <li> <a href='#redessociais'>Redes sociais</a></li>
+            <li> <a href='#contact'>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+<div class="espaco"></div>
+
+<section id="home" class= "background-padrao sessoes">
+    <div class="conteudo-principal conteudo-home">
+        <div class="texto-home">
+            <h2>SOFTEAM</h2>
+            <p>Fundada em 1997, a SofTeam é a Empresa Júnior de Computação da Universidade 
+                Federal de Sergipe.
+                Atua desenvolvendo WebSites, E-commerce, 
+                Sistemas Web e ainda promove eventos sociais relacionados à tecnologia.
+                Somos uma antiga empresa de tecnologia, 
+                porém que a cada ano se renova com novos membros dispostos a realizarem seus serviços com a melhor qualidade possível.
+            </p>
+        </div>
+        <div class="img-home">
+            <img src="assests/img/dev.svg" alt="carro">
+        </div>
+    </div>
+</section>
+
+<section id="Especializacoes" class= "background-branco sessoes">
+    <div class="conteudo-principal conteudo-esp">
+            <div class="texto-esp">
+            <h2 >Especializações</h2>
+            <p>WebSites, Sistemas Web, Softwares, E-Commerce, Soluções Web,
+            Uso das tecnologias mais atuais, CSS3, HTML5, BootStrap, 
+            AngularJS / NodeJS, Wordpress, BitBucket, Docker, Git e Serviços 
+            de Qualidade</p>
+            </div>
+        <div class="img-esp">  
+            <img src="assests/img/htmlcss.svg" alt="">
+        </div>
+    </div>
+</section>
+
+<section  id="localizacao" class= "background-padrao sessoes">
+    <div class="conteudo-principal conteudo-mapa">
+        <div class="mapa-texto">
+        <h2>COMO NOS ENCONTRAR?</h2>
+        <p>
+            Universidade Federal de Sergipe | 
+            Departamento de Computação - Avenida Marechal Rondon, S/N - Jardim Rosa Elze 
+            SofTeam
+            São Cristóvão, Sergipe 49100-000, BR
+        </p>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.84611880129967!2d-37.104064989835024!3d-10.922680714391289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab24328c9d769%3A0xef344bad65959f1a!2sSofTeam%20-%20Empresa%20J%C3%BAnior%20de%20Computa%C3%A7%C3%A3o%20da%20UFS!5e0!3m2!1spt-BR!2sbr!4v1666319677764!5m2!1spt-BR!2sbr"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<section id="redessociais" class= "background-branco sessoes">
+    <div class="conteudo-principal conteudo-redes">
+        <div class="text-redes">
+            <h2>redes sociais</h2>
+            <p>Sigam-nos para saber mais,
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, natus earum ratione veritatis, ullam odio itaque perferendis vitae autem, explicabo commodi? Ratione facere est, ducimus quae adipisci quod illo magni.
+            </p>
+        </div> 
+        <ol class="grid">
+            <li> <a href='https://br.linkedin.com/company/softeam-ejc' target="blank"> <img src="assests/img/linkedin.png" alt="logo da linkedin"> </a></li>
+            <li> <a href='https://www.instagram.com/softeam.ejc/' target="blank"> <img src="assests/img/instagram.png" alt="logo da instagram"> </a></li>
+            <li> <a href='https://twitter.com/softeam_' target="blank"> <img src="assests/img/twitter.png" alt="logo do twitter"> </a></li>
+            <li> <a href='https://m.facebook.com/softeam.ejc/videos/' target="blank"> <img src="assests/img/facebook.png" alt="logo da linkedin"> </a></li>
+        </ol>        
+    </div>
+</section>
+
+<div id="contact" class= "background-padrao sessoes">
+    <div class="conteudo-principal">
+        <div class="formulario-contato">
+            <fieldset class="grid-form">
+                <legend>Contact me</legend>
+                <div class="conjunto-formularios">
+                    <label id="First-name"> First Name</label>
+                    <input type="text" name="First name" id="first-name"
+                    placeholder="Seu Nome">
+                </div>
+                <div class="conjunto-formularios">
+                    <label for="last-name"> Last Name</label>
+                    <input type="text" name="last name" id="last-name"
+                    placeholder="Seu Nome">
+                </div>
+                <div class="conjunto-formularios">
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email"
+                    placeholder="Seu Email">
+                </div>
+                <div class="conjunto-formularios largura-full">
+                    <label id="message"> Message</label>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="conjunto-formularios largura-full">
+                    <button type="submit"> Send Message</button>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</div>
+<footer id="footer" class="rodape background-branco">
+    <p><a rel="nofollow" target="_blank" href="https://www.instagram.com/_uneto_/"> @_uneto_</a>
+    </p> 
+</footer>
+
+<a class="topo" href="#">⏫</a>
+</body>
+</html>
