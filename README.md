@@ -12,3 +12,7 @@ O projeto consiste nos seguintes arquivos/diretórios principais:
 
 - `index.html`: Página inicial da landing page.
 - `assets/`: Diretório opcional com recursos adicionais, como imagens, ícones e contendo arquivo CSS para estilização.
+
+## Link para visualização
+
+[Visualize a Landing Page aqui](https://stellular-starburst-ddac0d.netlify.app/)
