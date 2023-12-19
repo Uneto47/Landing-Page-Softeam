@@ -11,5 +11,4 @@ A landing page foi criada com o intuito de demonstrar habilidades básicas de de
 O projeto consiste nos seguintes arquivos/diretórios principais:
 
 - `index.html`: Página inicial da landing page.
-- `styles/`: Diretório contendo arquivos CSS para estilização.
-- `assets/`: Diretório opcional com recursos adicionais, como imagens, ícones, etc.
+- `assets/`: Diretório opcional com recursos adicionais, como imagens, ícones e contendo arquivo CSS para estilização.
